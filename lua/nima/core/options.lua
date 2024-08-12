@@ -1,5 +1,7 @@
+vim.cmd("let g:netrw_liststyle = 3")
 local opt = vim.opt
-
+opt.tabstop = 2 -- 2 spaces for tabs (prettier default)
+opt.shiftwidth = 2 -- 2 spaces for indent width
 opt.relativenumber = true
 opt.autoindent = true
 opt.expandtab = true
